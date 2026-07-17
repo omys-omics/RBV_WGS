@@ -1,4 +1,4 @@
-View MultiQC reports:
+View MultiQC reports: 
 
 https://omys-omics.github.io/RBV_WGS/02.fastqc/multiqc.plate.1_multiqc_report.html
 
