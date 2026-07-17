@@ -1,0 +1,74 @@
+﻿id,pop,species,morph,date,locality,lat,long,sex,embryos,loan,WGS,type,class
+FN3788,BC,Clethrionomys gapperi,gapperi,29-Jul-24,"Canada/British Columbia: __________, km ___, west side of Cassiar Highway",57.364272018894553,-130.251251,male,NA,KU_3,1,discordant,BC_discordant
+FN3789,BC,Clethrionomys gapperi,gapperi,29-Jul-24,"Canada/British Columbia: __________, km ___, west side of Cassiar Highway",57.364381989464164,-130.249948,female,no,KU_3,1,discordant,BC_discordant
+FN3790,BC,Clethrionomys gapperi,gapperi,29-Jul-24,"Canada/British Columbia: __________, km 345, north of Eastman Creek,  west side of Cassiar Highway",57.382753025740385,-130.261611,female,no,KU_3,1,discordant,BC_discordant
+FN3791,BC,Clethrionomys gapperi,gapperi,29-Jul-24,"Canada/British Columbia: __________, km 345, north of Eastman Creek,  west side of Cassiar Highway",57.382706003263593,-130.261608,female,no,KU_3,1,discordant,BC_discordant
+FN3820,BC,Clethrionomys rutilus,rutilus,5-Aug-24,"Canada/British Columbia: 1 km south Kinaskan Lake Campground, pond, east side of Cassiar Highway",57.51865996979177,-130.184823,female,no,KU_3,1,rutilus,BC_rutilus
+FN3802,BC,Clethrionomys rutilus,rutilus,3-Aug-24,"Canada/British Columbia: Kinaskan Lake, km 380, west side of Cassiar Highway",57.631142009049654,-130.060169,female,no,KU_3,1,rutilus,BC_rutilus
+FN3797,BC,Clethrionomys rutilus,rutilus,2-Aug-24,"Canada/British Columbia: km 415, west side of Cassiar Highway",57.89750698953867,-130.051723,male,NA,KU_3,1,rutilus,BC_rutilus
+FN3758,BC,hybrid,hybrid,25-Jul-24,"Canada/British Columbia: south of Willow Creek, km _____, west side Cassiar Highway",57.436008034273982,-130.234732,female,no,KU_3,1,discordant,BC_discordant
+FN3761,BC,Clethrionomys rutilus,rutilus,25-Jul-24,"Canada/British Columbia: south side Stikine River, km 425 of Cassiar Highway",58.009979976341128,-130.027732,female,no,KU_3,1,rutilus,BC_rutilus
+FN3762,BC,hybrid,hybrid,26-Jul-24,"Canada/British Columbia: South Willow Creek, km 355, west side Cassiar Highway",57.436201991513371,-130.234588,male,NA,KU_3,1,discordant,BC_discordant
+FN3819,BC,Clethrionomys rutilus,rutilus,5-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.446496980264783,-130.234324,male,NA,KU_3,1,discordant,BC_discordant
+FN3835,BC,Clethrionomys rutilus,rutilus,8-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.437849035486579,-130.230425,female,yes,KU_3,1,discordant,BC_discordant
+FN3836,BC,Clethrionomys rutilus,rutilus,8-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.437673015519977,-130.230678,male,NA,KU_3,1,discordant,BC_discordant
+FN3837,BC,Clethrionomys gapperi,gapperi,8-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.438023965805769,-130.230148,male,NA,KU_3,1,discordant,BC_discordant
+FN3867,BC,Clethrionomys rutilus,rutilus,10-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.437731018289924,-130.230366,male,NA,KU_3,1,discordant,BC_discordant
+FN3878,BC,Clethrionomys rutilus,rutilus,11-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.436337023973465,-130.23095,male,NA,KU_3,1,discordant,BC_discordant
+FN3879,BC,Clethrionomys rutilus,rutilus,11-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.437707968056202,-130.230573,female,no,KU_3,1,discordant,BC_discordant
+FN3880,BC,Clethrionomys rutilus,rutilus,11-Aug-24,"Canada/British Columbia: Willow Creek, km 355, west side of Cassiar Highway",57.437999993562698,-130.230286,female,no,KU_3,1,discordant,BC_discordant
+FN602,SEAK,Myodes,Myodes sp.,22-Jul-22,"Rynda's Cabin, south side of Stikine River off of Andrew's Slough",56.66359001,-132.241976,male,NA,KU,2,discordant,SEAK_discordant
+FN603,SEAK,Myodes,Myodes sp.,22-Jul-22,"Rynda's Cabin, south side of Stikine River off of Andrew's Slough",56.66276699,-132.241307,male,NA,KU,2,discordant,SEAK_discordant
+FN605,SEAK,Myodes,Myodes sp.,22-Jul-22,"Rynda's Cabin, south side of Stikine River off of Andrew's Slough",56.66387097,-132.241794,male,NA,KU,2,discordant,SEAK_discordant
+FN572,SEAK,Myodes,Myodes sp.,22-Jul-22,"Rynda's Cabin, south side of Stikine River off of Andrew's Slough",56.66395202,-132.241321,female,yes,KU,2,discordant,SEAK_discordant
+FN608,SEAK,Myodes,Myodes sp.,22-Jul-22,"Rynda's Cabin, south side of Stikine River off of Andrew's Slough",56.663014,-132.241882,female,no,KU,2,discordant,SEAK_discordant
+FN506,SEAK,Myodes,Myodes sp.,19-Jul-22,"Shake's Slough, north side of the Stikine River",56.72510203,-132.090763,female,no,KU,2,discordant,SEAK_discordant
+FN547,SEAK,Myodes,Myodes sp.,20-Jul-22,"Shake's Slough, north side of the Stikine River",56.72457498,-132.091592,male,NA,KU,2,discordant,SEAK_discordant
+FN505,SEAK,Myodes,Myodes sp.,19-Jul-22,"Shake's Slough, north side of the Stikine River",56.72370502,-132.091779,female,no,KU,2,discordant,SEAK_discordant
+FN534,SEAK,Myodes,Myodes sp.,20-Jul-22,"Shake's Slough, north side of the Stikine River",56.71400104,-132.105536,male,NA,KU,2,discordant,SEAK_discordant
+FN550,SEAK,Myodes,Myodes sp.,21-Jul-22,"Shake's Slough, north side of the Stikine River",56.71489899,-132.102502,male,NA,KU,2,discordant,SEAK_discordant
+FN2538,SEAK,Myodes rutilus,rutilus,4-Jul-23,"Indian Point, north of LeConte Bay",56.750893,-132.53056,male,NA,KU_2,5,rutilus,SEAK_rutilus
+FN2551,SEAK,Myodes rutilus,rutilus,5-Jul-23,"Indian Point, north of LeConte Bay",56.756072,-132.5304,male,NA,KU_2,5,rutilus,SEAK_rutilus
+FN2560,SEAK,Myodes rutilus,rutilus,5-Jul-23,"Indian Point, north of LeConte Bay",56.752694,-132.52768,male,NA,KU_2,5,rutilus,SEAK_rutilus
+FN2562,SEAK,Myodes rutilus,rutilus,5-Jul-23,"Indian Point, north of LeConte Bay",56.757195,-132.52071,male,NA,KU_2,5,rutilus,SEAK_rutilus
+UAM68436,SEAK,Myodes rutilus,rutilus,1-Aug-97,"Jap Creek, Petersburg Quad, Alexander Archipelago",56.77277778,-132.6075,unknown,NA,UAM_2,5,rutilus,SEAK_rutilus
+UAM100160,SEAK,Myodes rutilus,rutilus,24-Oct-02,"Thomas Bay small mammal transect, mixed forest, Petersburg Quad, Alexander Archipelago",56.93003,-132.862,male,NA,UAM_2,5,rutilus,SEAK_rutilus
+UAM34216,RUSS,Alticola lemminus,Alticola,24-Aug-94,Vsadnik Bay,64.38,-173.3,female,NA,UAM_2,5,outgroup,RUSS_outgroup
+UAM20640,SEAK,Myodes gapperi,gapperi,11-Jul-92,Anita Bay area,56.18333333,-132.4833333,female,NA,UAM_1,5,gapperi,SEAK_gapperi
+UAM50109,SEAK,Myodes gapperi,gapperi,20-Nov-97,Nemo,56.25,-132.3166667,female,NA,UAM_1,5,gapperi,SEAK_gapperi
+UAM50293,SEAK,Myodes gapperi,gapperi,2-Aug-97,Berg Bay,56.36361111,-132.0080556,female,NA,UAM_1,5,discordant,SEAK_discordant
+UAM50296,SEAK,Myodes gapperi,gapperi,4-Aug-97,"Berg Bay, Petersburg Quad, Alexander Archipelago",56.36361111,-132.0080556,male,NA,UAM_2,5,discordant,SEAK_discordant
+UAM59964,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,female,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59965,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59966,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59967,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59968,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59969,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,female,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59970,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,female,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+UAM59971,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,3,ref_gapperi,BC_ref_gapperi
+MSB198512,BC,Myodes rutilus,,14-Aug-03,No specific locality recorded.,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199067,BC,Myodes rutilus,,14-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199079,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,female,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199080,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199082,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199092,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199096,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199104,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+MSB199112,BC,Myodes rutilus,,14-Aug-03,No specific locality recorded,58.38252778,-129.9187778,female,,MSB_3,3,ref_rutilus,BC_ref_rutilus
+UAM59972,BC,Clethrionomys gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,4,ref_gapperi,BC_ref_gapperi
+UAM59973,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,4,ref_gapperi,BC_ref_gapperi
+UAM59974,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,4,ref_gapperi,BC_ref_gapperi
+UAM59975,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,female,,UAM_3,4,ref_gapperi,BC_ref_gapperi
+UAM59976,BC,Myodes gapperi,,20-Sep-01,"10 km south of Swan Lake, Cassiar Highway",55.69,-128.765,male,,UAM_3,4,ref_gapperi,BC_ref_gapperi
+MSB199119,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199121,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199122,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199126,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199127,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199129,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199132,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199133,BC,Myodes rutilus,,15-Aug-03,No specific locality recorded,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199134,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199135,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,male,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199136,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
+MSB199138,BC,Myodes rutilus,,15-Aug-03,Dalby Creek,58.38252778,-129.9187778,female,,MSB_3,4,ref_rutilus,BC_ref_rutilus
