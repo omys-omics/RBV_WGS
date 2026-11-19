@@ -434,34 +434,43 @@ stats.1Mb.100kb <- data.frame(pop1 = c(dxy.1Mb.100kb.refs$pop1, fst.1Mb.100kb.re
 )
 
 stats.1Mb.100kb <- stats.1Mb.100kb[stats.1Mb.100kb$pop1 %in% c("BC_ref_gapperi", "BC_ref_rutilus"),]
-stats.1Mb.100kb <- stats.1Mb.100kb[stats.1Mb.100kb$chromosome == "CM105789.1",]
+stats.1Mb.100kb.26 <- stats.1Mb.100kb[stats.1Mb.100kb$chromosome == "CM105789.1",]
 
-stats.1Mb.100kb$color <- NA
-stats.1Mb.100kb[stats.1Mb.100kb$pop1 == "BC_ref_gapperi" & stats.1Mb.100kb$pop2 == "BC_ref_gapperi", "color"] <- "BC_ref_gapperi"
-stats.1Mb.100kb[stats.1Mb.100kb$pop1 == "BC_ref_rutilus" & stats.1Mb.100kb$pop2 == "BC_ref_rutilus", "color"] <- "BC_ref_rutilus"
-stats.1Mb.100kb[stats.1Mb.100kb$pop1 != stats.1Mb.100kb$pop2, "color"] <- "compare"
+stats.1Mb.100kb.26$color <- NA
+stats.1Mb.100kb.26[stats.1Mb.100kb.26$pop1 == "BC_ref_gapperi" & stats.1Mb.100kb.26$pop2 == "BC_ref_gapperi", "color"] <- "BC_ref_gapperi"
+stats.1Mb.100kb.26[stats.1Mb.100kb.26$pop1 == "BC_ref_rutilus" & stats.1Mb.100kb.26$pop2 == "BC_ref_rutilus", "color"] <- "BC_ref_rutilus"
+stats.1Mb.100kb.26[stats.1Mb.100kb.26$pop1 != stats.1Mb.100kb.26$pop2, "color"] <- "compare"
 
 fst_scaler <- data.frame(window_pos_mid = c(0, 46425774),
                      value = c(0,1),
                      stat = c("Fst", "Fst"),
                      color = c("BC_ref_gapperi", "BC_ref_rutilus"))
 dxy_scaler <- data.frame(window_pos_mid = c(0, 46425774),
-                         value = c(0,0.01),
+                         value = c(0,0.012),
                          stat = c("Dxy", "Dxy"),
                          color = c("BC_ref_gapperi", "BC_ref_rutilus"))
-
+pi_scaler <- data.frame(window_pos_mid = c(0, 46425774),
+                       value = c(0,0.004),
+                       stat = c("Pi", "Pi"),
+                       color = c("BC_ref_gapperi", "BC_ref_rutilus"))
+r_scaler <- data.frame(window_pos_mid = c(0, 46425774),
+                       value = c(0,1.266931e-08),
+                       stat = c("Recombination rate", "Recombination rate"),
+                       color = c("BC_ref_gapperi", "BC_ref_rutilus"))
   
   
-stats.26 <- ggplot(stats.1Mb.100kb, aes(x=window_pos_mid, y=value, color = color)) +
+stats.26 <- ggplot(stats.1Mb.100kb.26, aes(x=window_pos_mid, y=value, color = color)) +
   geom_line(cex = 0.8, alpha = 0.8) +
   geom_blank(data = fst_scaler, aes(x=window_pos_mid, y=value, color = color)) +
   geom_blank(data = dxy_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_blank(data = pi_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_blank(data = r_scaler, aes(x=window_pos_mid, y=value, color = color)) +
   facet_wrap( ~ stat, ncol = 1, scales = "free_y") +
-  xlab("Position (bp)") +
+  xlab("position on chromosome 26") +
   ylab("") +
   labs(title = ) +
   scale_x_continuous(
-    breaks = c(0,1e7,2e7,3e7,4e7,46425774),
+    breaks = c(0,1e7,2e7,3e7,4e7),
     labels = scales::label_scientific(digits = 2),
     expand = c(0.01,0)
   ) +
@@ -475,6 +484,59 @@ stats.26 <- ggplot(stats.1Mb.100kb, aes(x=window_pos_mid, y=value, color = color
   )
 stats.26
 ggsave("stats.26.png", stats.26, width = 3, height = 2)
+
+
+
+stats.1Mb.100kb.27 <- stats.1Mb.100kb[stats.1Mb.100kb$chromosome == "CM105790.1",]
+
+stats.1Mb.100kb.27$color <- NA
+stats.1Mb.100kb.27[stats.1Mb.100kb.27$pop1 == "BC_ref_gapperi" & stats.1Mb.100kb.27$pop2 == "BC_ref_gapperi", "color"] <- "BC_ref_gapperi"
+stats.1Mb.100kb.27[stats.1Mb.100kb.27$pop1 == "BC_ref_rutilus" & stats.1Mb.100kb.27$pop2 == "BC_ref_rutilus", "color"] <- "BC_ref_rutilus"
+stats.1Mb.100kb.27[stats.1Mb.100kb.27$pop1 != stats.1Mb.100kb.27$pop2, "color"] <- "compare"
+
+fst_scaler <- data.frame(window_pos_mid = c(0, 43129863),
+                         value = c(0,1),
+                         stat = c("Fst", "Fst"),
+                         color = c("BC_ref_gapperi", "BC_ref_rutilus"))
+dxy_scaler <- data.frame(window_pos_mid = c(0, 43129863),
+                         value = c(0,0.012),
+                         stat = c("Dxy", "Dxy"),
+                         color = c("BC_ref_gapperi", "BC_ref_rutilus"))
+pi_scaler <- data.frame(window_pos_mid = c(0, 43129863),
+                        value = c(0,0.004),
+                        stat = c("Pi", "Pi"),
+                        color = c("BC_ref_gapperi", "BC_ref_rutilus"))
+r_scaler <- data.frame(window_pos_mid = c(0, 43129863),
+                         value = c(0,1.266931e-08),
+                         stat = c("Recombination rate", "Recombination rate"),
+                         color = c("BC_ref_gapperi", "BC_ref_rutilus"))
+
+
+stats.27 <- ggplot(stats.1Mb.100kb.27, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_line(cex = 0.8, alpha = 0.8) +
+  geom_blank(data = fst_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_blank(data = dxy_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_blank(data = pi_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  geom_blank(data = r_scaler, aes(x=window_pos_mid, y=value, color = color)) +
+  facet_wrap( ~ stat, ncol = 1, scales = "free_y") +
+  xlab("position on chromosome 27") +
+  ylab("") +
+  labs(title = ) +
+  scale_x_continuous(
+    breaks = c(0,1e7,2e7,3e7,4e7),
+    labels = scales::label_scientific(digits = 2),
+    expand = c(0.01,0)
+  ) +
+  scale_y_continuous(n.breaks = 3) +
+  guides(color = "none") +
+  scale_color_manual(values = c("#59b4ac", "#d8b365", "black")) +
+  theme_bw() +
+  theme(legend.position = "none",
+        strip.background = element_blank(), # Removes the background box
+        strip.text = element_blank()        # Removes the text labels
+  )
+stats.27
+ggsave("stats.27.png", stats.27, width = 3, height = 2)
 
 
 #############################################################
@@ -518,6 +580,32 @@ ggsave("lai.26.ancestry_hmm.pdf", lai.26.ancestry_hmm, width = 12, height = 5)
 
 
 
+all.ancestry_hmm.intervals.27 <- all.ancestry_hmm.intervals[all.ancestry_hmm.intervals$chr == "CM105790.1",]
+lai.27.ancestry_hmm <- ggplot(all.ancestry_hmm.intervals.27, aes(xmin = start, xmax = end, y = id, color = factor(state))) +
+  geom_linerange(size = 3) +
+  facet_wrap(~ pop, nrow = 2, scales = "free_y") +
+  scale_color_manual(values = c("0" = "#D8B365", "1" = "grey", "2" = "#5AB4AB", "UNASSIGNED" = "white")) +
+  #scale_color_manual(values = c("gap,gap" = "#5AB4AB", "gap,old" = "#D8B365", "gap,new" = "coral", "old,old" = "gold4", "old,new" = "grey", "new,new" = "darkred",  "UNASSIGNED" = "white")) +
+  scale_x_continuous(
+    breaks = c(0,1e7,2e7,3e7,4e7,43129863),
+    labels = scales::label_scientific(digits = 2),
+    expand = c(0.01,0)
+  ) +
+  theme_bw() +
+  theme(
+    strip.background = element_rect(fill = "white"),
+    panel.grid = element_blank(),
+    axis.title = element_blank(),
+    axis.text.y = element_text(size = 7.7),
+    #axis.text.y = element_blank(),
+    legend.position = "none"
+  ) 
+lai.27.ancestry_hmm
+
+
+ggsave("lai.27.ancestry_hmm.pdf", lai.26.ancestry_hmm, width = 12, height = 5)
+
+
 
 #######################################
 ###           Figure 2             ###
@@ -527,7 +615,15 @@ grid.draw(chr26.all)
 ggsave("chr26.all.R.pdf", chr26.all, width = 6, height = 7)
 ggsave("chr26.all.wide.R.pdf", chr26.all, width = 12, height = 7)
 
+chr27.all <- arrangeGrob(lai.27.ancestry_hmm, stats.27, heights = c(1.2,1))
+grid.draw(chr27.all)
+ggsave("chr27.all.R.pdf", chr27.all, width = 6, height = 7)
+ggsave("chr27.all.wide.R.pdf", chr27.all, width = 12, height = 7)
 
+chr26.27.all <- arrangeGrob(chr26.all, chr27.all, widths = c(1,1))
+grid.draw(chr26.27.all)
+ggsave("chr26.27.all.R.pdf", chr26.27.all, width = 10, height = 7)
+ggsave("chr26.27.all.wide.R.pdf", chr26.27.all, width = 24, height = 7)
 
 
 
@@ -1007,14 +1103,14 @@ gene_plot <- function(data = NULL, pop1 = NULL, gene = NULL, chr = NULL, start =
     geom_blank(data = dummy5, aes(x=window_pos_mid, y=value, colour = comp)) +
     
     facet_wrap( ~ stat, scales = "free", ncol = 1) +
-    xlab("Position (bp)") +
+    xlab("position") +
     ylab("") +
     #labs(title = gene) +
     scale_x_continuous(breaks=c(plot_start, td_start, gene_mid, td_end, plot_end),
                        labels = scales::label_number(scale = 1e-6, suffix = " Mb", accuracy = 0.1)) +
     scale_y_continuous(n.breaks = 3) +
-    #scale_color_manual(values = c("#5AB4AB", "#D8B365", "black")) + #SEAK
-    scale_color_manual(values = c("black", "#5AB4AB", "#D8B365")) + #BC
+    scale_color_manual(values = c("#5AB4AB", "#D8B365", "black")) + #SEAK
+    #scale_color_manual(values = c("black", "#5AB4AB", "#D8B365")) + #BC
     theme_bw() +
     guides(color = "none") +
     theme(legend.position = "none",
@@ -1193,10 +1289,17 @@ for (i in bed$gene) {
   print(i)
 }
 for (i in bed$gene) {
+  ggsave(filename = paste0("gene.plots.clean/BC/", i, ".BC.plot.pdf"), get(paste0(i, ".BC.plot")), width = 2, height = 6)
+  print(i)
+}
+for (i in bed$gene) {
   ggsave(filename = paste0("gene.plots/SEAK/", i, ".SEAK.plot.png"), get(paste0(i, ".SEAK.plot")), width = 2, height = 6)
   print(i)
 }
-
+for (i in bed$gene) {
+  ggsave(filename = paste0("gene.plots.clean/SEAK/", i, ".SEAK.plot.pdf"), get(paste0(i, ".SEAK.plot")), width = 2, height = 6)
+  print(i)
+}
 
 #############################################
 #####         Poster gene plots        ######
